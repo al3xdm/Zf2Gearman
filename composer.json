@@ -1,5 +1,5 @@
 {
-    "name": "al3xdm/Zf2Gearman",
+    "name": "al3xdm/zf2gearman",
     "type": "library",
     "description": "Easily integrate Gearman Workers to your Zf2 Project",
     "keywords": ["Gearman", "Workers", "Daemon", "Zend Framework 2", "zf2"],
