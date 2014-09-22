@@ -15,6 +15,8 @@ use Zf2Gearman\Bootstrap;
  */
 class ApplicationFactory implements FactoryInterface
 {
+    protected $process;
+
     /**
      * @param  ServiceLocatorInterface $serviceLocator
      * @return Bootstrap

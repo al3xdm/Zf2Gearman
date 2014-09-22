@@ -1,7 +1,6 @@
 <?php
 namespace Zf2Gearman\Factory;
 
-use Zend\ServiceManager\Exception\ServiceNotCreatedException;
 use Zend\ServiceManager\FactoryInterface;
 use Zend\ServiceManager\ServiceLocatorInterface;
 use Sinergi\Gearman\Config;
@@ -11,7 +10,7 @@ use Sinergi\Gearman\Config;
  *
  * @package HandMake\Option\Factory
  */
-class BootstrapFactory implements FactoryInterface
+class ConfigFactory implements FactoryInterface
 {
     /**
      * @param  ServiceLocatorInterface $serviceLocator
