@@ -1,0 +1,30 @@
+<?php
+
+return array(
+    'gearman' => array(
+        // Default options that will be set for all Workers
+        'options' => array(
+            'servers' => array(
+
+            ),
+
+            // 10 workers will do all jobs
+            'count' => 10,
+
+            // Each job will have minimum 1 worker  that does only that job
+            'dedicated_count' => 1,
+
+            // Workers will only live for 1 hour
+            'max_worker_lifetime' => 3600,
+
+            // Timeout n seconds for all jobs before work is reissued to another worker
+            'timeout' => 300
+        ),
+        'workers' => array(
+            // Keys should be the name of a service registered with the Service Manager
+            'Some\Worker\One' => array(
+                'dedicated'
+            )
+        )
+    )
+);
