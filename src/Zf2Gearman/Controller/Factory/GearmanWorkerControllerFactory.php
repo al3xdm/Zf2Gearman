@@ -1,5 +1,7 @@
 <?php
 
+namespace Zf2Gearman\Controller\Factory;
+
 use Zend\ServiceManager\FactoryInterface;
 use Zend\ServiceManager\ServiceLocatorInterface;
 use Zf2Gearman\Controller\GearmanWorkerController;
